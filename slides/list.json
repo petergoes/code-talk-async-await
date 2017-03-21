@@ -47,6 +47,16 @@
     ],
     [
         {
+            "filename": "error/error-handling.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "error/use-try-catch.md",
+        "error/try-catch-example.md"
+    ],
+    [
+        {
             "filename": "examples/examples.md",
             "attr": {
                 "class": "title-slide"
