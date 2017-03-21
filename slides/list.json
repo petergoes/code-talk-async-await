@@ -34,5 +34,15 @@
         },
         "async/explain-async.md",
         "async/async-example.md"
+    ],
+    [
+        {
+            "filename": "await/await.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "await/explain-await.md",
+        "await/await-example.md"
     ]
 ]
