@@ -15,5 +15,14 @@
         },
         "promises-recap/how-does-a-promise-work.md",
         "promises-recap/promise-rundown.md"
+    ],
+    [
+        {
+            "filename": "async-await/async-await.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "async-await/async-await-rundown.md"
     ]
 ]
