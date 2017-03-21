@@ -44,5 +44,16 @@
         },
         "await/explain-await.md",
         "await/await-example.md"
+    ],
+    [
+        {
+            "filename": "examples/examples.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "examples/simple-example.md",
+        "examples/promise-example.md",
+        "examples/promise-example-2.md"
     ]
 ]
