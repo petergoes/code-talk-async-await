@@ -66,5 +66,11 @@
         "timings/timings-exmaple-1.md",
         "timings/explain-timings.md",
         "timings/timings-exmaple-2.md"
-    ]
+    ],
+    {
+        "filename": "logo.html",
+        "attr": {
+            "class": "logo-page"
+        }
+    }
 ]
