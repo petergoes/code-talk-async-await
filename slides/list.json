@@ -24,5 +24,15 @@
             }
         },
         "async-await/async-await-rundown.md"
+    ],
+    [
+        {
+            "filename": "async/async.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "async/explain-async.md",
+        "async/async-example.md"
     ]
 ]
