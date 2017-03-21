@@ -1,4 +1,4 @@
-##  explain await
+##  `await`
 
 * Can **only** be used in an `async` function
 * Waits for a **promise** to resolve
