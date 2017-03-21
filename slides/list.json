@@ -15,5 +15,72 @@
         },
         "promises-recap/how-does-a-promise-work.md",
         "promises-recap/promise-rundown.md"
-    ]
+    ],
+    [
+        {
+            "filename": "async-await/async-await.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "async-await/async-await-rundown.md"
+    ],
+    [
+        {
+            "filename": "async/async.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "async/explain-async.md",
+        "async/async-example.md"
+    ],
+    [
+        {
+            "filename": "await/await.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "await/explain-await.md",
+        "await/await-example.md"
+    ],
+    [
+        {
+            "filename": "error/error-handling.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "error/use-try-catch.md",
+        "error/try-catch-example.md"
+    ],
+    [
+        {
+            "filename": "examples/examples.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "examples/simple-example.md",
+        "examples/promise-example.md",
+        "examples/promise-example-2.md"
+    ],
+    [
+        {
+            "filename": "timings/timings.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "timings/timings-exmaple-1.md",
+        "timings/explain-timings.md",
+        "timings/timings-exmaple-2.md"
+    ],
+    {
+        "filename": "logo.html",
+        "attr": {
+            "class": "logo-page"
+        }
+    }
 ]
