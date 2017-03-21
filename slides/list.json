@@ -55,5 +55,16 @@
         "examples/simple-example.md",
         "examples/promise-example.md",
         "examples/promise-example-2.md"
+    ],
+    [
+        {
+            "filename": "timings/timings.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "timings/timings-exmaple-1.md",
+        "timings/explain-timings.md",
+        "timings/timings-exmaple-2.md"
     ]
 ]
