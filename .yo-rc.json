@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Code talk - async / await",
+    "packageVersion": "0.1.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "petergoes",
+    "githubRepository": "code-talk-async-await"
+  }
+}

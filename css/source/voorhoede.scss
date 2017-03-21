@@ -1,0 +1,121 @@
+$yellow: #EDDD3E;
+$dark: #12353C;
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../resources/font/raleway/raleway.css);
+@import url(../resources/font/fira-code/fira-code.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: $yellow;
+
+$mainColor: $dark;
+$headingColor: $dark;
+
+$mainFontSize: 42px;
+$mainFont: 'Raleway', Helvetica, sans-serif;
+$headingFont: 'Raleway', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: normal;
+$headingFontWeight: 600;
+$linkColor: $dark;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+    &, h1, h2, h3, h4, h5, h6 {
+        color: #222;
+    }
+}
+
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+.reveal strong, .reveal b {
+    font-weight: 800;
+}
+
+.reveal pre code {
+    padding: 1rem;
+}
+
+.reveal code {
+    font-family: "Fira Code";
+    text-rendering: optimizeLegibility;
+}
+
+.logo {
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    margin: 0 !important;
+}
+
+.reveal .slide-background {
+    background-image: url(../resources/assets/voorhoedevignet.svg);
+    background-size: 150px;
+    background-position: bottom;
+}
+
+.hljs {
+    background-color: $dark;
+}
+
+// Title slides --------------------------------
+.title-slide h1,
+.title-slide h2,
+.title-slide h3,
+.title-slide h4,
+.title-slide h5,
+.title-slide h6 {
+    color: $yellow;
+}
+
+.reveal .slide-background.logo-page {
+    background-image: none;
+}
+
+.reveal .slide-background.title-slide {
+    background-color: $dark;
+    // background-image: none;
+}
+
+.has-dark-background .controls .navigate-left,
+.has-dark-background .controls .navigate-left.enabled {
+    border-right-color: $yellow;
+}
+.has-dark-background .controls .navigate-right,
+.has-dark-background .controls .navigate-right.enabled {
+    border-left-color: $yellow;
+}
+.has-dark-background .controls .navigate-up,
+.has-dark-background .controls .navigate-up.enabled {
+    border-bottom-color: $yellow;
+}
+
+.has-dark-background .controls .navigate-down,
+.has-dark-background .controls .navigate-down.enabled {
+    border-top-color: $yellow;
+}
+
+.has-dark-background .progress span {
+    background: $yellow;
+}
+.has-dark-background .progress {
+    background: $dark;
+}
+// ---------------------------------------------
