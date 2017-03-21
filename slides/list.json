@@ -13,6 +13,7 @@
                 "class": "title-slide"
             }
         },
-        "promises-recap/how-does-a-promise-work.md"
+        "promises-recap/how-does-a-promise-work.md",
+        "promises-recap/promise-rundown.md"
     ]
 ]
