@@ -1,0 +1,18 @@
+[
+    {
+        "filename": "logo.html",
+        "attr": {
+            "class": "logo-page"
+        }
+    },
+    "title.md",
+    [
+        {
+            "filename": "promises-recap/promises-recap.md",
+            "attr": {
+                "class": "title-slide"
+            }
+        },
+        "promises-recap/how-does-a-promise-work.md"
+    ]
+]
