@@ -23,7 +23,9 @@
                 "class": "title-slide"
             }
         },
-        "async-await/async-await-rundown.md"
+        "async-await/async-await-rundown.md",
+        "async-await/availability-browser.md",
+        "async-await/availability-node.md"
     ],
     [
         {
